@@ -29,12 +29,14 @@ The distribution also includes:
   * FsTamTam clients programming templates.
   * Extensive and complete documentation.
   
-## Devices I made (for PMDG-NGX's B737)
+## Devices we made for PMDG-NGX's B737
+My son (the pilot) and I, we started to build his B737 cockpit a couple of years ago. When the time of interfacing our devices with FSX-SE came, we tried many software we've found on the intenet, all with different and limted scope. We didn't go for the commercial and expensive ones, so I took the opportunity to start the FsTamTam project.
 
-* MAIN panel
-* STAND (with motorized throttles and speedbrake lever)
-* MCP
-* CDU
+The FsTamTam *devices* we developed and integrated so far: 
+* MAIN panel (Sparkfun Pro Micro, NeoPixels, wood, metal, 3D printing)
+* MCP (Arduino Mega 2560, plexiglas, 3D printing, laser cutting)
+* STAND (Arduino Mega 2560, moified servos, wood, metal, 3D printing)
+* CDU (Sparkfun Pro Micro, 3D printing)
 
 ## Support FsTamTam
 
