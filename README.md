@@ -7,7 +7,7 @@ The all-in-one **FsTamTam server** is a light-weight Java application that provi
 * TCP connections (a C++ library and a template are provided).
 * Websocket (over TCP) connections (a JavaScript library and a HTML5 template are provided).
 
-Giving them uniform abstraction, optimal, and easy access to:
+... giving them uniform abstraction, optimal, and easy access to:
 - SimConnect:
   * Variables (read only).
   * Events.
@@ -16,7 +16,7 @@ Giving them uniform abstraction, optimal, and easy access to:
   * Variables.
   * Events.
   * CDU screen data.
-- 8 global variables all FsTamTam clients could read and write, for possibly share some "general" info.
+- 8 global variables all FsTamTam clients could read and write, for possibly share some info.
      
 **FsTamTam Data Exchange Framework** implements mechanisms to:
 * Provide data connectivity to the *devices* without any sort of intervention at start-up, upon disconnection and/or reconnection.
@@ -30,7 +30,7 @@ The distribution also includes:
   * Extensive and complete documentation.
   
 ## Devices we made for PMDG-NGX's B737
-My son (the pilot) and I, we started to build his B737 cockpit a couple of years ago. When the time of interfacing our devices with FSX-SE came, we tried many software we've found on the intenet, all with different and limted scope. We didn't go for the commercial and expensive ones, so I took the opportunity to start the FsTamTam project.
+A couple of years ago, my son (the pilot) and I started to build his B737 cockpit. When the time of interfacing our devices with FSX-SE came, we tried many software we've found on the intenet, all with different and limted scope. We didn't go for the commercial and expensive ones, so I took the opportunity to start the FsTamTam project.
 
 The FsTamTam *devices* we developed and integrated so far: 
 * MAIN panel (Sparkfun Pro Micro, NeoPixels, wood, metal, 3D printing)
