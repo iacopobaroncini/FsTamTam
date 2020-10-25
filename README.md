@@ -3,13 +3,11 @@
 ## All-in-one data exchange framework for flight simulator cockpit makers.
 
 The **FsTamTam server** provides connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
-
 * USB (an Arduino library is provided).
 * TCP (a C++ library is provided).
 * WebSocket (a JavaScript library is provided for HTML5 developments).
 
 Giving them an uniform, optimal, and easy acces to:
-
 - SimConnect:
   * Variables (read only).
   * Events.
@@ -21,7 +19,6 @@ Giving them an uniform, optimal, and easy acces to:
 - 8 global variables all FsTamTam clients could read and write.
      
 **FsTamTam Data Exchange Framework** provides mechanisms to:
-
 - Minimize data traffic between SimConnect and *devices*.
 - Compress CDU screen data (typically 1:3, starting from PMDG-NGX packet of 1009 bytes).
 
