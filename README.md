@@ -1,8 +1,8 @@
-# FsTamTam Data Exchenge Framewowk
+# FsTamTam Data Exchange Framewowk
 
 ## All-in-one data exchange framework for flight simulator cockpit makers.
 
-**FsTamTam server** provides connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
+The **FsTamTam server** provides connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
 
 * USB (an Arduino library is provided)
 * TCP (a C++ library is provided)
@@ -18,11 +18,13 @@ Giving them an uniform, optimal, and easy acces to:
   * Variables
   * Events
   * CDU screen data
-- 8 global variables 
+- 8 global variables all FsTamTam clients could read and write.
      
-**FsTamTam server**:
+**FsTamTam Data Exchange Framewor** provides mechanisms to:
+- 
 - Minimize data traffic between SimConnect and *devices*.
-- CDU screen data is compressed (typical 1:3, starting from PMDG-NGX packet of 1009 bytes).
+- Compress CDU screen data (typically 1:3, starting from PMDG-NGX packet of 1009 bytes).
+
 - Comes with:
   * **FsTamTam Console**: a web-based console that allows to monitor the server activity, to get informations on variables/events, to monitor variables and send events during simulation sessions.
   * **FsTamTam CDU**: a web-based CDU that could be run in the palm of your hand, on your mobile device.
