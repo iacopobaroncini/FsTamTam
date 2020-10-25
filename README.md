@@ -3,9 +3,9 @@
 ## All-in-one data exchange framework for flight simulator cockpit makers.
 
 The all-in-one **FsTamTam server** is a light-weight Java application that provides plug-and-play connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
-* USB connections (an Arduino library is provided).
-* Raw TCP connections (a C++ library is provided).
-* WebSocket (over TCP) connections (a JavaScript library is provided for HTML5 developments).
+* USB connections (an Arduino library and template are provided).
+* TCP connections (a C++ library and a template are provided).
+* Websocket (over TCP) connections (a JavaScript library and a HTML5 template are provided).
 
 Giving them an uniform, optimal, and easy acces to:
 - SimConnect:
@@ -16,7 +16,7 @@ Giving them an uniform, optimal, and easy acces to:
   * Variables.
   * Events.
   * CDU screen data.
-- 8 global variables all FsTamTam clients could read and write.
+- 8 global variables all FsTamTam clients could read and write, for possibly share some "general" info.
      
 **FsTamTam Data Exchange Framework** provides mechanisms to:
 * Provide data connectivity to the *devices* without any sort of intervention at start-up, upon disconnection and/or reconnection.
