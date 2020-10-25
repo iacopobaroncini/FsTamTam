@@ -18,10 +18,10 @@ Giving them uniform abstraction, optimal, and easy access to:
   * CDU screen data.
 - 8 global variables all FsTamTam clients could read and write, for possibly share some "general" info.
      
-**FsTamTam Data Exchange Framework** provides mechanisms to:
+**FsTamTam Data Exchange Framework** implements mechanisms to:
 * Provide data connectivity to the *devices* without any sort of intervention at start-up, upon disconnection and/or reconnection.
-* Minimize data traffic between SimConnect and *devices* to the bare minimal.
-* Compress CDU screen data (typically 1:3, starting from PMDG-NGX packets of 1009 bytes in length).
+* Filters data traffic between SimConnect and the *devices* to the bare minimal.
+* Compress CDU screen data (typically between 1:8 and 1:3, starting from PMDG-NGX CDU screen raw data packets of 1009 bytes in length).
 
 The distribution also includes:
   * **FsTamTam Console**: a web-based console for monitoring the server activity, and an "exploration" tool for getting information on variables/events and, during simulation sessions, monitoring variables and sending events.
@@ -40,7 +40,17 @@ The FsTamTam *devices* we developed and integrated so far:
 
 ## Support FsTamTam
 
-The development of FsTamTam Data Exchange Framework, as it is today, took a lot of time and effort.
+The development of FsTamTam Data Exchange Framework, as it is today, took a lot of time and effort in learning, coding, testing, optimizing and fine tuning.
 
 Please consider to support the project with a PayPal donation (FsTamTam server in-app link).
+
+
+Have fun,
+
+Iacopo Baroncini
      
+
+## Other projects of mine
+* SoyuzSim
+* ISS Tracker
+* LightThreads
