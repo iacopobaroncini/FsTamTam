@@ -42,5 +42,5 @@ The FsTamTam *devices* we developed and integrated so far:
 
 The development of FsTamTam Data Exchange Framework, as it is today, took a lot of time and effort.
 
-Please consider to support the project by PayPal donating (FsTamTam server in-app link).
+Please consider to support the project with a PayPal donation (FsTamTam server in-app link).
      
