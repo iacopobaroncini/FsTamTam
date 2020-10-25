@@ -8,15 +8,9 @@ The all-in-one **FsTamTam server** is a light-weight Java application that provi
 * Websocket (over TCP) connections (a JavaScript library and a HTML5 template are provided).
 
 ... giving them uniform abstraction, optimal, and easy access to:
-- SimConnect:
-  * Variables (read only).
-  * Events.
-  * Lists (AI Waypoints, and Facility Airports, Waypoints, NDBs, VORs, TACANs).
-- PMDG-NGX
-  * Variables.
-  * Events.
-  * CDU screen data.
-- 8 global variables all FsTamTam clients could read and write, for possibly share some info.
+- **SimConnect**: variables (read only), events, lists (AI Waypoints, and Facility Airports, Waypoints, NDBs, VORs, TACANs).
+- **PMDG-NGX**: variables, events, CDU screen data.
+- **8 global variables** all FsTamTam clients could read and write, for possibly sharing info of "common" interest.
      
 **FsTamTam Data Exchange Framework** implements mechanisms to:
 * Provide data connectivity to the *devices* without any sort of intervention at start-up, upon disconnection and/or reconnection.
