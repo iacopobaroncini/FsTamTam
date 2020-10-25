@@ -44,12 +44,6 @@ The development of FsTamTam Data Exchange Framework, as it is today, took a lot 
 
 Please consider to support the project with a PayPal donation (FsTamTam server in-app link).
 
-
-Have fun,
-
-Iacopo Baroncini
-     
-
 ## Other projects of mine
 * SoyuzSim
 * ISS Tracker
