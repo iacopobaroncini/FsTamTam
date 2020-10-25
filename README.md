@@ -15,9 +15,11 @@
      * Events
      * CDU data
      
-Giving connectivity to cockipt elements (devices):
+To **FsTamTam clients** (cockipt elements or *devices*) connected via:
 
-* Based on Arduino boards (via USB)
-* C++ programs (raw TCP connections)
-* HTML5 (WebSocket - over TCP - connections) 
+* USB (an Arduino library is provided)
+* TCP (a C++ library is provided)
+* WebSocket (a JavaScript library is provided for HTML5 developments) 
+
+
      
