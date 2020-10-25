@@ -2,7 +2,7 @@
 
 ## All-in-one data exchange framework for flight simulator cockpit makers.
 
-The all-in-one **FsTamTam server** if a light-weight Java application that provides plug-and-play connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
+The all-in-one **FsTamTam server** is a light-weight Java application that provides plug-and-play connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
 * USB (an Arduino library is provided).
 * TCP (a C++ library is provided).
 * WebSocket (a JavaScript library is provided for HTML5 developments).
