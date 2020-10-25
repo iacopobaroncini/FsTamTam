@@ -22,7 +22,7 @@ Giving them an uniform, optimal, and easy acces to:
 - Minimize data traffic between SimConnect and *devices*.
 - Compress CDU screen data (typically 1:3, starting from PMDG-NGX packet of 1009 bytes).
 
-The distribution includes:
+The distribution also includes:
   * **FsTamTam Console**: a web-based console for monitoring the server activity, and an "exploration" tool for getting information on variables/events and, during simulation sessions, monitoring variables and sending events.
   * **FsTamTam CDU**: a fully featured web-based CDU *device* that could be run in the palm of your hand, on your mobile device.
   * FsTamTam clients programming templates.
