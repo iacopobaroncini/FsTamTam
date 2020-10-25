@@ -1,6 +1,6 @@
 # FsTamTam Data Exchenge Framewowk
 
-**All-in-one data exchange framework for flight simulator cockpit makers.**
+## All-in-one data exchange framework for flight simulator cockpit makers.
 
 **FsTamTam server** provides connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
 
@@ -27,7 +27,7 @@ Giving them an uniform, optimal, and easy acces to:
   * **FsTamTam Console**: a web-based console that allows to monitor the server activity, to get informations on variables/events, to monitor variables and send events during simulation sessions.
   * **FsTamTam CDU**: a web-based CDU that could be run in the palm of your hand, on your mobile device.
   
-##Please donate##
+## Please donate
 
 Ciao
 
