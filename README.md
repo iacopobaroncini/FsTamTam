@@ -1,13 +1,13 @@
 # FsTamTam Data Exchange Framewowk
 
-## All-in-one data exchange framework for flight simulator cockpit makers.
+## All-in-one data exchange framework for FSX and Prepar3D cockpit makers.
 
-The all-in-one **FsTamTam server** is a light-weight Java application that provides plug-and-play connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
+The all-in-one **FsTamTam server** is a light-weight Java application that provides *plug-and-play* connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
 * USB connections (an Arduino library and template are provided).
 * TCP connections (a C++ library and a template are provided).
 * Websocket (over TCP) connections (a JavaScript library and a HTML5 template are provided).
 
-Giving them an uniform, optimal, and easy acces to:
+Giving them uniform abstraction, optimal, and easy access to:
 - SimConnect:
   * Variables (read only).
   * Events.
