@@ -3,7 +3,7 @@
 ------------------
 
 Version 1.1 (November 2020)
-* Bug fixef in FsTmaTam Server
+* Bug fixed in FsTmaTam Server
 * Bug fixed in FsTamTam Client Interface for C++ Arduino
 * Bug fixed in FsTamTam Client Interface for C++ socket
 
