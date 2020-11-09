@@ -1,8 +1,6 @@
 # FsTamTam Data Exchange Framewowk
 
-## Cross-platform Data Exchange Framework, for FSX and Prepar3D cockpit makers 
-
-**FsTamTam Data Exchange Framework** is a freeware for FSX and Prepar3D cockpit makers. 
+## Freeware Cross-Platform Data Exchange Framework, for FSX and Prepar3D cockpit makers 
 
 A computational light-weight Java AWT/Swing **FsTamTam Server** provides your cockpit elements (FsTamTam Clients or **devices**) a sort of “plug-and-play” data connectivity to your Flight Simulator via SimConnect.
 
@@ -41,6 +39,12 @@ The distribution includes:
 
 For any further explanation, or if have any suggestions, do not hesitate to contact me.
 
+Have fun!
+
+Ciao,
+
+Iacopo Baroncini
+[iacopo.baroncini@gmail.com](mailto:iacopo.baroncini@gmail.com)
 
 
 ## Other projects of mine
