@@ -22,47 +22,27 @@ Possible **device** forms are:
 * **PC command-line Java program** - Programming language: Java - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices.
 * **Web application** - Programming languages: HTML5, CSS, JavaScript - Connection type: Websocket	- HTTP server-side: it acts as a regular web server, delivering HTML documents, style sheets, images and scripts to the requesting web browser on which the web application is running.
 
-TCP server-side: it detects, accepts and manage Websocket connections only from FsTamTam devices. This is the channel where the FsTamTam low-level protocol is “spoken”.
+By using a static interface class, your **device**:
+* Is notified when connects-to/disconnects-from the **FsTamTam Server**.
+* Is notified when a simulation starts/stops running on your Flight Simulator.
+* Is notified when data (you’ve subscribed to) is available, such as.
+* Can easly access **SimConnect Variables** (read only), and **list elements** such as AI Waypoint, and Facility Airport/Waypoint/NDB/VOR/TACAN).
+* Can easly access **PMDG-NGX Variables**, and **PMDG-NGX CDUs Screen Data**.
+* Can easly aceess 8 **FsTamTam Global Variables** (32-bit integers) all **devices** could share for exchanging info of “common” interest, if needed.
+* Can easly trigger **SimConnect events** and **PMDG-NGX events**.
+* Can easly set the value of the **FsTamTam Global Variables** (32-bit integers).
+
+The distribution includes:
+
+* **FsTamTam Server** – A Java AWT/Swing application.
+* **FsTamTam Console** – A web-based application for getting basic information and programming hints on variables/events and, during simulation sessions, monitoring variables and sending events. Basically, it is a very useful tool for understanding what kind of variable and event data your device shall deal with.
+* **FsTamTam CDU device** – A fully featured web **device** that implements the left or right CDU. It could be also used in the palm of your hand, on your mobile phone or tablet.
+* Device programming guides and templates for the various platforms and languages.
+
+For any further explanation, or if have any suggestions, do not hesitate to contact me.
 
 
-
-The all-in-one **FsTamTam server** is a light-weight Java application that provides *plug-and-play* connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
-* USB connections (an Arduino library and template are provided).
-* TCP connections (a C++ library and a template are provided).
-* Websocket (over TCP) connections (a JavaScript library and a HTML5 template are provided).
-
-... giving them uniform abstraction, optimal, and easy access to:
-- **SimConnect**: variables (read only), events, lists (AI Waypoints, and Facility Airports, Waypoints, NDBs, VORs, TACANs).
-- **PMDG-NGX**: variables, events, CDU screen data.
-- **8 global variables** all FsTamTam clients could read and write, for possibly sharing info of "common" interest.
-     
-**FsTamTam Data Exchange Framework** implements mechanisms to:
-* Provide data connectivity to the *devices* without any sort of intervention at start-up, upon disconnection and/or reconnection.
-* Filters data traffic between SimConnect and the *devices* to the bare minimal.
-* Compress CDU screen data (typically between 1:8 and 1:3, starting from PMDG-NGX CDU screen raw data packets of 1009 bytes in length).
-
-The distribution also includes:
-  * **FsTamTam Console**: a web-based console for monitoring the server activity, and an "exploration" tool for getting information on variables/events and, during simulation sessions, monitoring variables and sending events.
-  * **FsTamTam CDU**: a fully featured web-based CDU *device* that could be run in the palm of your hand, on your mobile device.
-  * FsTamTam clients programming templates.
-  * Extensive and complete documentation.
-  
-## Devices we made for PMDG-NGX's B737
-A couple of years ago, my son (the pilot) and I started to build his B737 cockpit. When the time of interfacing our devices with FSX-SE came, we tried many software we've found on the intenet, all with different and limted scope. We didn't go for the commercial and expensive ones, so I took the opportunity to start the FsTamTam project.
-
-The FsTamTam *devices* we developed and integrated so far: 
-* MAIN panel (Sparkfun Pro Micro, NeoPixels, wood, metal, 3D printing)
-* MCP (Arduino Mega 2560, plexiglas, 3D printing, laser cutting)
-* STAND (Arduino Mega 2560, moified servos, wood, metal, 3D printing)
-* CDU (Sparkfun Pro Micro, 3D printing)
-
-## Support FsTamTam
-
-The development of FsTamTam Data Exchange Framework, as it is today, took a lot of time and effort in learning, coding, testing, optimizing and fine tuning.
-
-Please consider to support the project with a PayPal donation (FsTamTam server in-app link).
 
 ## Other projects of mine
-* SoyuzSim
-* ISS Tracker
-* LightThreads
+* **SoyuzSim** - Paid app for iOS and Android - A very realistic space simulator for whom wants to learn how to manually manoeuvre the legendary Soyuz spacecraft during on-orbit operations around the International Space Station (ISS). Video trailer: [https://www.youtube.com/watch?v=V33kDNQ6fDU](https://www.youtube.com/watch?v=V33kDNQ6fDU)
+* ISS Tracker - Developed for the European Space Agency, 350 million-views between 2014 and 2020
