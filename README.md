@@ -12,7 +12,7 @@ Possible **device** forms are:
 * **Physical elements driven by an Arduino board** (i.e. panels with switches, selectors, rotary encoders, leds, etc) - Programming language C++ - Connection type: USB	- USB server-side: it automatically and consistently detects FsTamTam.
 * **C++ program** - Programming language: C++ - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices.
 * **Java program** - Programming language: Java - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices.
-* **Web application** - Programming languages: HTML5, CSS, JavaScript - Connection type: Websocket	- HTTP server-side: it acts as a regular web server, delivering HTML documents, style sheets, images and scripts to the requesting web browser on which the web application is running.
+* **Web application** - Programming languages: HTML5, CSS, JavaScript - Connection type: Websocket	- HTTP server-side: it acts as a regular web server, delivering HTML documents, style sheets, images and scripts to the requesting web browser on which the web application actually runs.
 
 By using a static interface class, your **device**:
 * Is notified when connects-to/disconnects-from the **FsTamTam Server**.
