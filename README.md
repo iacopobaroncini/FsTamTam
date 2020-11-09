@@ -8,11 +8,15 @@ A computational light-weight Java AWT/Swing **FsTamTam Server** provides your co
 
 You don’t need any other additional software in between your devices and your Flight Simulator.
 
-**FsTamTam Data Exchange Framework** is the result of a 2-year long work, started in 2018, along the development of 4 devices (Figure 2 and Figure 3) for my son’s simulator, made for Boeing 737 PMDG-NGX models running on FSX-SE.
+**FsTamTam Data Exchange Framework** is the result of a 2-year long work, started in 2018, along the development of 4 devices for my son’s simulator, made for Boeing 737 PMDG-NGX models running on FSX-SE:
+* **STAND** – Arduino Mega 2560, switches, push button, motorized throttles and speed break levers, NeoPixel, 3D printing, wood.
+* **MCP** – Arduino Mega 2560, switches, push buttons, encoders, leds, 3D printing, laser cutting, plexiglass.
+* **CDU** – Arduino Uno, push buttons, leds, 3D printing.
+* **MAIN Panel** – Sparkfun Pro Micro, switches, selectors, NeoPixels, 3D printing, wood and metal. 
 
 Thanks the programming guidelines in this document, the software components, and the templates provided in this distribution, you can develop **devices** in several forms, all sharing the same programming principles and using the same low-level protocol while communicating with **FsTamTam Server**.
 
-Device forms:
+Possible **device** forms are:
 * **Physical elements driven by an Arduino board** (i.e. panels with switches, selectors, rotary encoders, leds, etc) - Programming language C++ (Arduino) - Connection type: USB	- USB server-side: it automatically and consistently detects FsTamTam.
 * **PC command-line C++ program** - Programming language: C++ (standard) - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices.
 * **PC command-line Java program** - Programming language: Java - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices.
