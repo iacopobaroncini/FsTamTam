@@ -1,7 +1,6 @@
 package org.iacopobaroncini;
 
 import org.iacopobaroncini.FsTamTam.*;
-import org.iacopobaroncini.FsTamTam.PmdgNgx.PmdgNgxCduCell;
 
 public class Main {
 
