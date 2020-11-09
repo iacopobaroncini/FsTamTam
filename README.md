@@ -44,6 +44,7 @@ For any further explanation, or if have any suggestions, do not hesitate to cont
 
 
 ## Other projects of mine
-* **SoyuzSim** - Paid app for iOS and Android - A very realistic space simulator for whom wants to learn how to manually manoeuvre the legendary Soyuz spacecraft during on-orbit operations around the International Space Station (ISS). Video trailer: [https://www.youtube.com/watch?v=V33kDNQ6fDU](https://www.youtube.com/watch?v=V33kDNQ6fDU){:target="_blank"}
+* **SoyuzSim** - Paid app for iOS and Android - A very realistic space simulator for whom wants to learn how to manually manoeuvre the legendary Soyuz spacecraft during on-orbit operations around the International Space Station (ISS). Video trailer: [https://www.youtube.com/watch?v=V33kDNQ6fDU](https://www.youtube.com/watch?v=V33kDNQ6fDU)
+* **ISS Tracker** - I did develop it for the European Space Agency. The most viewed ISS Tracker on Earth, with **350 million-views between 2014 and 2020**, and counting. It has been selected by NASA and embedded in the HDEV experiment that streams live from outside the ISS: [https://eol.jsc.nasa.gov/ESRS/HDEV/](https://eol.jsc.nasa.gov/ESRS/HDEV/)
 
-* ISS Tracker - Developed for the European Space Agency, 350 million-views between 2014 and 2020
+
