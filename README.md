@@ -6,12 +6,6 @@ A computational light-weight Java AWT/Swing **FsTamTam Server** provides your co
 
 You don’t need any other additional software in between your devices and your Flight Simulator.
 
-**FsTamTam Data Exchange Framework** is the result of a 2-year long work, started in 2018, along the development of 4 devices for my son’s simulator, made for Boeing 737 PMDG-NGX models running on FSX-SE:
-* **STAND** – Arduino Mega 2560, switches, push button, motorized throttles and speed break levers, NeoPixel, 3D printing, wood.
-* **MCP** – Arduino Mega 2560, switches, push buttons, encoders, leds, 3D printing, laser cutting, plexiglass.
-* **CDU** – Arduino Uno, push buttons, leds, 3D printing.
-* **MAIN Panel** – Sparkfun Pro Micro, switches, selectors, NeoPixels, 3D printing, wood and metal. 
-
 Thanks the programming guidelines in this document, the software components, and the templates provided in this distribution, you can develop **devices** in several forms, all sharing the same programming principles and using the same low-level protocol while communicating with **FsTamTam Server**.
 
 Possible **device** forms are:
@@ -36,6 +30,12 @@ The distribution includes:
 * **FsTamTam Console** – A web-based application for getting basic information and programming hints on variables/events and, during simulation sessions, monitoring variables and sending events. Basically, it is a very useful tool for understanding what kind of variable and event data your device shall deal with.
 * **FsTamTam CDU device** – A fully featured web **device** that implements the left or right CDU. It could be also used in the palm of your hand, on your mobile phone or tablet.
 * Device programming guides and templates for the various platforms and languages.
+
+**FsTamTam Data Exchange Framework** is the result of a 2-year long work, started in 2018, along the development of 4 devices for my son’s simulator, made for Boeing 737 PMDG-NGX models running on FSX-SE:
+* **STAND** – Arduino Mega 2560, switches, push button, motorized throttles and speed break levers, NeoPixel, 3D printing, wood.
+* **MCP** – Arduino Mega 2560, switches, push buttons, encoders, leds, 3D printing, laser cutting, plexiglass.
+* **CDU** – Arduino Uno, push buttons, leds, 3D printing.
+* **MAIN Panel** – Sparkfun Pro Micro, switches, selectors, NeoPixels, 3D printing, wood and metal. 
 
 For any further explanation, or if have any suggestions, do not hesitate to contact me.
 
