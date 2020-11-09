@@ -1,6 +1,26 @@
 # FsTamTam Data Exchange Framewowk
 
-## All-in-one data exchange framework for FSX and Prepar3D cockpit makers.
+## Cross-platform Data Exchange Framework, for FSX and Prepar3D cockpit makers 
+
+**FsTamTam Data Exchange Framework** is a freeware for FSX and Prepar3D cockpit makers. 
+
+A computational light-weight Java AWT/Swing **FsTamTam Server** provides your cockpit elements (FsTamTam Clients or **devices**) a sort of “plug-and-play” data connectivity to your Flight Simulator via SimConnect.
+
+You don’t need any other additional software in between your devices and your Flight Simulator.
+
+**FsTamTam Data Exchange Framework** is the result of a 2-year long work, started in 2018, along the development of 4 devices (Figure 2 and Figure 3) for my son’s simulator, made for Boeing 737 PMDG-NGX models running on FSX-SE.
+
+Thanks the programming guidelines in this document, the software components, and the templates provided in this distribution, you can develop **devices** in several forms, all sharing the same programming principles and using the same low-level protocol while communicating with **FsTamTam Server**.
+
+Device forms:
+* Physical elements driven by an Arduino board (i.e. panels with switches, selectors, rotary encoders, leds, etc) - Programming language C++ (Arduino) - Connection type: USB	- USB server-side: it automatically and consistently detects FsTamTam.
+* PC command-line program - Programming language: C++ (standard) - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices.
+* PC command-line program - Programming language: Java - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices.
+* Web application - Programming languages: HTML5, CSS, JavaScript - Connection type: Websocket	- HTTP server-side: it acts as a regular web server, delivering HTML documents, style sheets, images and scripts to the requesting web browser on which the web application is running.
+
+TCP server-side: it detects, accepts and manage Websocket connections only from FsTamTam devices. This is the channel where the FsTamTam low-level protocol is “spoken”.
+
+
 
 The all-in-one **FsTamTam server** is a light-weight Java application that provides *plug-and-play* connectivity to **FsTamTam clients** (cockipt elements or *devices*), via: 
 * USB connections (an Arduino library and template are provided).
