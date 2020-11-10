@@ -18,7 +18,7 @@ By using an interface class, your **device**:
 * Is notified when connects-to/disconnects-from the **FsTamTam Server**.
 * Is notified when a simulation starts/stops running on your Flight Simulator.
 * Is notified when data (upon subscription) is available:
-   * **SimConnect Variables** (read only), and **lists** such as **AI Waypoint**, and **Facility Airport/Waypoint/NDB/VOR/TACAN**.
+   * **SimConnect Variables** (read only), and **SimConnect Lists** such as **AI Waypoint**, and **Facility Airport/Waypoint/NDB/VOR/TACAN**.
    * **PMDG-NGX Variables**, and **PMDG-NGX CDU Screen Data**.
    * 8 **FsTamTam Global Variables** (32-bit integers) all **devices** could share for exchanging info of “common” interest, if needed.
 •	Can trigger **SimConnect Events**, and **PMDG-NGX Events**.
