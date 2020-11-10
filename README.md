@@ -2,9 +2,9 @@
 
 **Freeware Cross-Platform Data Exchange Framework, for FSX and Prepar3D cockpit makers** 
 
-A computational light-weight Java AWT/Swing **FsTamTam Server** provides your cockpit elements (FsTamTam Clients or **devices**) a sort of “plug-and-play” data connectivity to your Flight Simulator via SimConnect.
+A computational light-weight Java AWT/Swing **FsTamTam Server** provides your cockpit elements (FsTamTam Clients or **devices**) a sort of “plug-and-play” data connectivity to your **Flight Simulator** via **SimConnect**.
 
-You don’t need any other additional software in between your devices and your Flight Simulator.
+You don’t need any other additional software in between your **devices** and your **Flight Simulator**.
 
 Thanks the programming guidelines in this document, the software components, and the templates provided in this distribution, you can develop **devices** in several forms, all sharing the same programming principles and using the same low-level protocol while communicating with **FsTamTam Server**.
 
