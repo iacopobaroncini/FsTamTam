@@ -1,6 +1,6 @@
-# FsTamTam
+# FsTamTam Data Exchange Framework
 
-## Freeware Cross-Platform Data Exchange Framework, for FSX and Prepar3D cockpit makers 
+**Freeware Cross-Platform Data Exchange Framework, for FSX and Prepar3D cockpit makers** 
 
 A computational light-weight Java AWT/Swing **FsTamTam Server** provides your cockpit elements (FsTamTam Clients or **devices**) a sort of “plug-and-play” data connectivity to your Flight Simulator via SimConnect.
 
