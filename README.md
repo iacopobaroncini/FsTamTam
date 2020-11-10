@@ -9,10 +9,10 @@ You don’t need any other additional software in between your devices and your 
 Thanks the programming guidelines in this document, the software components, and the templates provided in this distribution, you can develop **devices** in several forms, all sharing the same programming principles and using the same low-level protocol while communicating with **FsTamTam Server**.
 
 Possible **device** forms are:
-* **Physical elements driven by an Arduino board** (i.e. panels with switches, selectors, rotary encoders, leds, etc) - Programming language C++ - Connection type: USB	- USB server-side: it automatically and consistently detects FsTamTam.
-* **C++ program** - Programming language: C++ - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices.
-* **Java program** - Programming language: Java - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices.
-* **Web application** - Programming languages: HTML5, CSS, JavaScript - Connection type: Websocket	- HTTP server-side: it acts as a regular web server, delivering HTML documents, style sheets, images and scripts to the requesting web browser on which the web application actually runs.
+* **Physical elements driven by an Arduino board** (i.e. panels with switches, selectors, rotary encoders, leds, etc) - Programming language C++ - Connection type: USB	- USB server-side: it automatically detects FsTamTam client devices, and implements the FsTamTam data exchange proocol.
+* **C++ program** - Programming language: C++ - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam client devices, and implements the FsTamTam data exchange proocol. 
+* **Java program** - Programming language: Java - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices, and implements the FsTamTam data exchange proocol.
+* **Web application** - Programming languages: HTML5, CSS, JavaScript - Connection type: HTTP and Websocket	- HTTP server-side: it acts as a regular web server, delivering HTML documents, style sheets, images and scripts to the requesting web browser on which the web application actually runs. - TCP server-side: provides Wesocket connectivity, and implements the FsTamTam data exchange proocol.
 
 By using a static interface class, your **device**:
 * Is notified when connects-to/disconnects-from the **FsTamTam Server**.
