@@ -14,15 +14,15 @@ Possible **device** forms are:
 * **Java program** - Programming language: Java - Connection type: TCP - TCP server-side: it accepts TCP connections only from FsTamTam devices, and implements the FsTamTam data exchange protocol.
 * **Web application** - Programming languages: HTML5, CSS, JavaScript - Connection type: HTTP and Websocket	- HTTP server-side: it acts as a regular web server, delivering HTML documents, style sheets, images and scripts to the requesting web browser on which the web application actually runs. - TCP server-side: provides Wesocket connectivity, and implements the FsTamTam data exchange protocol.
 
-By using a static interface class, your **device**:
+By using an interface class, your **device**:
 * Is notified when connects-to/disconnects-from the **FsTamTam Server**.
 * Is notified when a simulation starts/stops running on your Flight Simulator.
-* Is notified when data (you’ve subscribed to) is available, such as.
-* Can easly access **SimConnect Variables** (read only), and **list elements** such as AI Waypoint, and Facility Airport/Waypoint/NDB/VOR/TACAN).
-* Can easly access **PMDG-NGX Variables**, and **PMDG-NGX CDUs Screen Data**.
-* Can easly aceess 8 **FsTamTam Global Variables** (32-bit integers) all **devices** could share for exchanging info of “common” interest, if needed.
-* Can easly trigger **SimConnect events** and **PMDG-NGX events**.
-* Can easly set the value of the **FsTamTam Global Variables** (32-bit integers).
+* Is notified when data (upon subscription) is available:
+   * **SimConnect Variables** (read only), and **lists** such as **AI Waypoint**, and **Facility Airport/Waypoint/NDB/VOR/TACAN**.
+   * **PMDG-NGX Variables**, and **PMDG-NGX CDU Screen Data**.
+   * 8 **FsTamTam Global Variables** (32-bit integers) all **devices** could share for exchanging info of “common” interest, if needed.
+•	Can trigger **SimConnect Events**, and **PMDG-NGX Events**.
+•	Can set the value of the 8 **FsTamTam Global Variables** (32-bit integers).
 
 The distribution includes:
 
