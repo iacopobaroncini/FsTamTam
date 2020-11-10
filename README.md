@@ -1,4 +1,4 @@
-# FsTamTam Data Exchange Framewowk
+# FsTamTam
 
 ## Freeware Cross-Platform Data Exchange Framework, for FSX and Prepar3D cockpit makers 
 
