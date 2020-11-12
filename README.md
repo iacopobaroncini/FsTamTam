@@ -6,7 +6,7 @@ A computational light-weight Java AWT/Swing **FsTamTam Server** provides your co
 
 You don’t need any other additional software in between your **devices** and your **Flight Simulator**.
 
-Thanks the programming guidelines in this document, the software components, and the templates provided in this distribution, you can develop **devices** in several forms, all sharing the same programming principles and using the same low-level protocol while communicating with **FsTamTam Server**.
+Thanks to the programming guidelines in this document, the software components, and the templates provided in this distribution, you can develop **devices** in several forms, all sharing the same programming principles and using the same low-level protocol while communicating with **FsTamTam Server**.
 
 Possible **device** forms are:
 * **Physical elements driven by an Arduino board** (i.e. panels with switches, selectors, rotary encoders, leds, etc) - Programming language C++ - Connection type: USB	- USB server-side: it automatically detects FsTamTam client devices, and implements the FsTamTam data exchange protocol.
