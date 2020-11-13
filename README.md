@@ -21,8 +21,8 @@ By using an interface class, your **device**:
    * **SimConnect Variables** (read only), and **SimConnect Lists** such as **AI Waypoint**, and **Facility Airport/Waypoint/NDB/VOR/TACAN**.
    * **PMDG-NGX Variables**, and **PMDG-NGX CDU Screen Data**.
    * 8 **FsTamTam Global Variables** (32-bit integers) all **devices** could share for exchanging info of “common” interest, if needed.
-•	Can trigger **SimConnect Events**, and **PMDG-NGX Events**.
-•	Can set the value of the 8 **FsTamTam Global Variables** (32-bit integers).
+* Can trigger **SimConnect Events**, and **PMDG-NGX Events**.
+*	Can set the value of the 8 **FsTamTam Global Variables** (32-bit integers).
 
 The distribution includes:
 
